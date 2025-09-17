@@ -23652,6 +23652,30 @@ null or string</p>
 </dd>
 <dt>
  <span class="term">
+ <a id="opt-vim.languages.typst.extensions.typst-concealer.setupOpts.conceal_in_normal"></a><a class="term" href="options.html#opt-vim.languages.typst.extensions.typst-concealer.setupOpts.conceal_in_normal"><code class="option">vim.languages.typst.extensions.typst-concealer.setupOpts.conceal_in_normal</code>
+  </a>
+ </span>
+</dt>
+<dd>
+<p>Should typst-concealer still conceal when the normal mode cursor goes over a line.</p>
+
+<p><span class="emphasis"><em>Type:</em></span>
+null or boolean</p>
+
+<p><span class="emphasis"><em>Default:</em></span>
+<code class="literal">null</code></p>
+
+<p><span class="emphasis"><em>Declared by:</em></span></p>
+<table border="0" summary="Simple list" class="simplelist">
+<tr><td>
+<code class="filename"><a class="filename"  href="https://github.com/NotAShelf/nvf/blob/main/modules/plugins/languages/typst.nix" target="_top">
+&lt;nvf/modules/plugins/languages/typst.nix&gt;
+</a></code>
+</td></tr>
+</table>
+</dd>
+<dt>
+ <span class="term">
  <a id="opt-vim.languages.typst.extensions.typst-concealer.setupOpts.do_diagnostics"></a><a class="term" href="options.html#opt-vim.languages.typst.extensions.typst-concealer.setupOpts.do_diagnostics"><code class="option">vim.languages.typst.extensions.typst-concealer.setupOpts.do_diagnostics</code>
   </a>
  </span>
@@ -23736,6 +23760,9 @@ string</p>
 
 <p><span class="emphasis"><em>Default:</em></span>
 <code class="literal">&quot;\${pkgs.typst.out}/bin/typst&quot;</code></p>
+
+<p><span class="emphasis"><em>Example:</em></span>
+<code class="literal">&quot;lib.getExe pkgs.typst&quot;</code></p>
 
 <p><span class="emphasis"><em>Declared by:</em></span></p>
 <table border="0" summary="Simple list" class="simplelist">
